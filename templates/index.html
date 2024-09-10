@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="title">Video Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="main">
+    <h1>Generate Video</h1>
+    <textarea id="inputText" placeholder="Enter text here..."></textarea>
+    <div class="cta_gen">
+    <button id="generateButton">Generate Video</button>
+</div>
+    <div id="resultContainer">
+        <p id="resultMessage"></p>
+        <button id="downloadButton" style="display: none;">Download Video</button>
+    </div>
+
+</div>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

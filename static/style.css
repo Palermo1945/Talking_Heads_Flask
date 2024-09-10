@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image:url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F021%2F171%2F635%2Fnon_2x%2Fcolorful-abstract-wallpaper-modern-background-ai-generated-free-photo.jpg&f=1&nofb=1&ipt=55900a8f5d85fc60ca325fd2ae49e791725b7a399a7bfb27a6dc7cc3aaae1211&ipo=images');
+}
+
+h1 {
+    margin-top: 20px;
+    color:wheat;
+   
+}
+
+textarea {
+    width: 30%;
+    height: 100px;
+    margin: 20px 0;
+    color: black;
+    opacity: 80%;
+}
+
+button {
+    background-color: rgba(2,91,149,255);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#resultContainer {
+    margin-top: 20px;
+}
+
+.cta_gen {
+    align-self: center;
+}
+
+.main{
+   bottom: 500%;
+}
